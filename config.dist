@@ -2,4 +2,5 @@
   "title": "streakshow",
   "port": "80",
   "key": "insertYourStreakApiKey"
+  "refresh": "10000"
 }

@@ -1,6 +1,8 @@
 include mixins
 
 +html('pipeline: ' + pipeline.name)
+  script(type='text/javascript').
+    setTimeout("location.reload(true);", "#{config.refresh}");
   div.row
     div.col-md-12
       h1.title= pipeline.name
