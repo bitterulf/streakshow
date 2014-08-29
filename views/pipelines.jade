@@ -1,0 +1,9 @@
+include mixins
+
++html('pipelines')
+  div.row
+    div.col-md-12
+      h1.title pipelines
+      each pipeline in pipelines
+        div.col-md-1
+          a.btn.btn-primary(href='pipeline/'+pipeline.key)= pipeline.name
