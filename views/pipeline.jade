@@ -5,7 +5,7 @@ include mixins
     div.col-md-12
       h1.title= pipeline.name
     each stage in stages
-      div.col-md-3.stage
+      div.col-lg-1.col-md-2.col-sm-3.col-xs-6.stage
         h2= stage.name
         each box in stage.boxes
           div.box

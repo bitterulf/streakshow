@@ -11,7 +11,13 @@ h1, h2, h3{
 }
 
 .stage h2 {
+  font-size: 14px;
   background-color: #9e9e9e;
   color: white;
   padding: 4px;
+}
+
+.stage h3 {
+  font-size: 14px;
+  font-weight: bold;
 }
